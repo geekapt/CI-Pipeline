@@ -58,7 +58,7 @@ jobs:
           body: |
             ✅ Docker image: `${{ env.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ github.ref_name }}`
             🐳 Auto-built and deployed via CI/CD.
-    env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 👈 Add this line explicitly
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
 
