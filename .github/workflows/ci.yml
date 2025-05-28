@@ -6,7 +6,7 @@ on:
     tags:
       - 'v*.*.*'
 jobs:
-  build-test-deply:
+  build-test-deploy:
     runs-on:  ubuntu-latest
 
     steps:
